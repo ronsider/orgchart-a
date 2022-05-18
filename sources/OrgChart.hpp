@@ -19,6 +19,8 @@ namespace ariel
 
         OrgChart* operator ->()const ;
         std::string operator *()const;
+
+        friend bool operator == (const OrgChart& , const OrgChart&);
         
 
         int size()

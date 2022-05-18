@@ -56,4 +56,11 @@ std::string OrgChart::operator*()const
 {
    return "42";
 }
+
+bool operator==(const OrgChart& oc1,const OrgChart& oc2)
+{
+    return true;
 }
+
+}
+
